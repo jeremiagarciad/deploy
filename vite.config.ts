@@ -7,7 +7,7 @@ import path from 'path';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tsconfigPaths()],
-  base: "https://jeremiagarciad.github.io/deploy/",
+  base: "https://github.com/jeremiagarciad/deploy/",
   test: {
     globals: true,
     environment: 'jsdom',
